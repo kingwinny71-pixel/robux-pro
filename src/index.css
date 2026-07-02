@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Override neutral colors to a gorgeous, premium Dark Blue / Navy palette */
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-300: #cbd5e1;
+  --color-neutral-400: #94a3b8;
+  --color-neutral-500: #64748b;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1e293b;
+  --color-neutral-850: #0f172a;
+  --color-neutral-900: #0b1329;
+  --color-neutral-950: #040815;
+
+  /* Override red (primary accents and alerts) to premium, vibrant Orange shades */
+  --color-red-50: #fff7ed;
+  --color-red-100: #ffedd5;
+  --color-red-200: #fed7aa;
+  --color-red-300: #fdba74;
+  --color-red-400: #fb923c;
+  --color-red-500: #f97316;
+  --color-red-600: #ea580c;
+  --color-red-700: #c2410c;
+  --color-red-800: #9a3412;
+  --color-red-900: #7c2d12;
+  --color-red-950: #431407;
+
+  /* Override yellow (coins/notifications) to Orange-gold shades to align with theme */
+  --color-yellow-50: #fff7ed;
+  --color-yellow-100: #ffedd5;
+  --color-yellow-200: #fed7aa;
+  --color-yellow-300: #fdba74;
+  --color-yellow-400: #fb923c;
+  --color-yellow-500: #f97316;
+  --color-yellow-600: #ea580c;
+  --color-yellow-700: #c2410c;
+  --color-yellow-800: #9a3412;
+  --color-yellow-900: #7c2d12;
+  --color-yellow-950: #431407;
+
+  /* Override amber to match the premium Orange shades */
+  --color-amber-50: #fff7ed;
+  --color-amber-100: #ffedd5;
+  --color-amber-200: #fed7aa;
+  --color-amber-300: #fdba74;
+  --color-amber-400: #fb923c;
+  --color-amber-500: #f97316;
+  --color-amber-600: #ea580c;
+  --color-amber-700: #c2410c;
+  --color-amber-800: #9a3412;
+  --color-amber-900: #7c2d12;
+  --color-amber-950: #431407;
+
+  /* Override green (success states/approvals) to White and vibrant Orange */
+  --color-green-50: #ffffff;
+  --color-green-100: #fefefe;
+  --color-green-200: #fdfdfd;
+  --color-green-300: #fdba74;
+  --color-green-400: #fb923c;
+  --color-green-500: #f97316;
+  --color-green-600: #ea580c;
+  --color-green-700: #c2410c;
+  --color-green-800: #9a3412;
+  --color-green-950: #431407;
+
+  /* Also override emerald to Orange */
+  --color-emerald-50: #fff7ed;
+  --color-emerald-100: #ffedd5;
+  --color-emerald-200: #fed7aa;
+  --color-emerald-300: #fdba74;
+  --color-emerald-400: #fb923c;
+  --color-emerald-500: #f97316;
+  --color-emerald-600: #ea580c;
+  --color-emerald-700: #c2410c;
+  --color-emerald-850: #1a0f05;
+  --color-emerald-800: #9a3412;
+  --color-emerald-900: #7c2d12;
+  --color-emerald-950: #431407;
+
+  /* Font configurations */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}

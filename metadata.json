@@ -1,0 +1,6 @@
+{
+  "name": "Robux Reward Platform",
+  "description": "A rewards system where users enter their Roblox username, watch simulated ads to earn coins, and redeem their coins for Robux. Includes an admin panel for tracking cashouts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
